@@ -1,0 +1,177 @@
+.wrapper {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+
+/* 头部 */
+.header {
+    padding: 20px;
+    height: 270px;
+    background-color: f7f7f7;
+}
+
+.header .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .logo {
+    margin-bottom: 20px;
+    padding: 24px 20px 20px 62px;
+    width: 80px;
+    background-color: pink;
+    background: url(../im/联想截图_20241123104641.png) no-repeat center bottom/cover;
+}
+
+.header .search {
+    margin-top: 12px;
+    padding-left: 19px;
+    padding-right: 12px;
+    width: 412px;
+    height: 40px;
+    background-color: #2d3646;
+    border-radius: 20px;
+    display: flex;
+}
+
+.search input {
+    flex: 1;
+    border: 0;
+    background-color: transparent;
+    outline: none;
+    color: white;
+}
+
+.search a {
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    background: url(../im/联想截图_20241123113524.png) no-repeat center bottom/cover;
+}
+
+.user {
+    margin-left: 32px;
+    margin-top: 10px;
+
+}
+
+.user img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+
+.user span {
+    font-size: 16px;
+    color: white;
+}
+
+.header .bottom {
+    display: flex;
+    height: 80px;
+    background-color: #2d3646;
+}
+
+.header .bottom ul {
+    display: flex;
+    margin-left: 213px;
+}
+
+.header .bottom li {
+    padding-left: 35px;
+    padding-bottom: 10px;
+    height: 80px;
+
+}
+
+.header .bottom .money {
+    display: block;
+    margin-left: 450px;
+    margin-top: 25px;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    line-height: 32px;
+    background-color: #fbbb49;
+    border-radius: 15PX;
+}
+
+.header .bottom li a {
+    color: rgb(211, 214, 194);
+    padding: 0 10px 10px 10px;
+    font-size: 20px;
+    line-height: 80px;
+    border-right: 1px solid yellow;
+}
+
+.header .bottom .bottom li .act,
+.bottom li a:hover {
+    color: #00a4ff;
+}
+
+/* 轮 */
+.pic {
+    display: flex;
+    justify-content: center;
+}
+
+.pic img {
+    height: 408px;
+    width: 800px;
+    border-radius: 10px;
+}
+
+
+/* body */
+.body {
+    margin-top: 370px;
+    height: 437px;
+}
+
+.body .wrapper .hd {
+    display: flex;
+    justify-content: space-between;
+}
+
+.body .wrapper h2 {
+    color: white;
+    font-weight: 400;
+}
+
+.body .wrapper a {
+    color: #676d7e;
+    font-size: 20px;
+}
+
+.body .wrapper .bd ul {
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.body .wrapper .bd li {
+    width: 245px;
+    height: 375px;
+    margin-bottom: 14px;
+}
+
+.bd li img {
+    width: 100%;
+    height: 300px;
+}
+
+.bd li .pic {
+    height: 300px;
+    object-fit: contain;
+
+}
+
+.bd li .text {
+    margin-top: 10px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+}

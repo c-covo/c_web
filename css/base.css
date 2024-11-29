@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    font: 14px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: #242b38;
+}
